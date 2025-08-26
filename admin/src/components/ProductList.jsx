@@ -59,7 +59,7 @@ const ProductList = () => {
               <div className="col-span-2 flex justify-center md:justify-center">
                 
                 <img
-                  src={`http://localhost:3000${product.image}`}
+                  src={product.image}
                   alt={product.name}
                   className="w-16 h-16 object-cover rounded-md"
                   
